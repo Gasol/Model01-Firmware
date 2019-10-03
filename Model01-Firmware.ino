@@ -32,6 +32,8 @@
 // Support for controlling the keyboard's LEDs
 #include "Kaleidoscope-LEDControl.h"
 
+#include "Kaleidoscope-IdleLEDs.h"
+
 // Support for "Numpad" mode, which is mostly just the Numpad specific LED mode
 #include "Kaleidoscope-NumPad.h"
 
@@ -528,7 +530,9 @@ KALEIDOSCOPE_INIT_PLUGINS(
   SpaceCadet,
 
   // Record and playback macros on-the-fly
-  MacrosOnTheFly
+  MacrosOnTheFly,
+ 
+  IdleLEDs
 );
 
 /** The 'setup' function is one of the two standard Arduino sketch functions.
