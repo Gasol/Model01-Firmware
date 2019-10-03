@@ -1,0 +1,3 @@
+[submodule "libraries/Kaleidoscope-MacrosOnTheFly"]
+	path = libraries/Kaleidoscope-MacrosOnTheFly
+	url = git@github.com:cdisselkoen/Kaleidoscope-MacrosOnTheFly.git
