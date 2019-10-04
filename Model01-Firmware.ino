@@ -77,7 +77,6 @@
 // Support for USB quirks, like changing the key state report protocol
 #include "Kaleidoscope-USB-Quirks.h"
 
-#include "Kaleidoscope-SpaceCadet.h"
 
 #include "Kaleidoscope-MacrosOnTheFly.h"
 
@@ -526,12 +525,9 @@ KALEIDOSCOPE_INIT_PLUGINS(
   // by BIOSes) and Report (NKRO).
   USBQuirks,
 
-  // Turns your left and right Shift keys into parens if you tap and release them
-  SpaceCadet,
-
   // Record and playback macros on-the-fly
   MacrosOnTheFly,
- 
+
   IdleLEDs
 );
 
